@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.</string>
+	<string>org.sil.ukelele.keyboardlayout.azertyr03</string>
 	<key>CFBundleName</key>
-	<string></string>
+	<string>AzertyR03</string>
 	<key>CFBundleVersion</key>
 	<string></string>
 	<key>KLInfo_Belgian</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout..belgian</string>
+		<string>org.sil.ukelele.keyboardlayout.azertyr03.belgian</string>
 		<key>TISIntendedLanguage</key>
 		<string>nl</string>
 	</dict>
