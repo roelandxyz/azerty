@@ -11,9 +11,6 @@ http://apple.stackexchange.com/questions/43845/how-do-i-type-a-%C2%B2-or-a-%C2%B
 Screenshots
 ===========
 
-The screenshot is a bit different from the real keyboard. The top left key is not on the screenshots and the key between shift and w is shown top left.
-The real top left key contains @ and #.
-
 Normal:  
 ![Normal](/screenshots/azerty_normal.png)
 
