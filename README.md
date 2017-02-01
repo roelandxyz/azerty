@@ -15,7 +15,7 @@ The layout is made with [Ukele](http://scripts.sil.org/cms/scripts/page.php?site
 
 Installing on Windows
 =====================
-- Run the setup
+- Run the setup (check the releases)
 - Choose the new layout
 
 The layout and installer is made with [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx)
