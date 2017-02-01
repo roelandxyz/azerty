@@ -1,3 +1,7 @@
+The Apple azerty and Windows azerty (Belgium period) layouts are a bit different.  
+This layout is a combination to make them both work.  
+
+
 Installing on macOS
 ===================
 - sudo cp -r AzertyR03.bundle /Library/Keyboard\ Layouts/  
@@ -7,7 +11,7 @@ Installing on macOS
 Here some extra information:  
 http://apple.stackexchange.com/questions/43845/how-do-i-type-a-%C2%B2-or-a-%C2%B3-on-an-apple-keyboard-international-english-layout/45402#45402
 
-The layout and bundle is made with [Ukele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
+The layout is made with [Ukele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
 
 Installing on Windows
 =====================
