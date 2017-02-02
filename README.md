@@ -24,17 +24,9 @@ Installing on Windows
 
 The layout and installer is made with [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx)
 
-Screenshots
-===========
+Screenshot
+==========
+ 
+![Layout](/keyboard-layout.png)
 
-Normal:  
-![Normal](/screenshots/azerty_normal.png)
-
-Shift:  
-![Normal](/screenshots/azerty_shift.png)
-
-Option:  
-![Normal](/screenshots/azerty_option.png)
-
-Option+Shift:  
-![Normal](/screenshots/azerty_option_shift.png)
+[Keyboard-layout-editor](http://www.keyboard-layout-editor.com/#/gists/63b058a04445e88629c4292a479f954a)
