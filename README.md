@@ -11,6 +11,10 @@ Installing on macOS
 Here some extra information:  
 http://apple.stackexchange.com/questions/43845/how-do-i-type-a-%C2%B2-or-a-%C2%B3-on-an-apple-keyboard-international-english-layout/45402#45402
 
+If you need to re-identify your keyboard for some reason:  
+sudo rm /Library/Preferences/com.apple.keyboardtype.plist
+
+
 The layout is made with [Ukele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
 
 Installing on Windows
