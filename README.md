@@ -1,5 +1,6 @@
 The Apple azerty and Windows azerty (Belgium period) layouts are a bit different.  
 This layout is a combination to make them both work.  
+It is also more developer friendly.  
 
 
 Installing on macOS
