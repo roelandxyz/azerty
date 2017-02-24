@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-02-24 at 14:27 (GMT+1)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-02-24 at 20:28 (GMT+1)-->
 <keyboard group="126" id="-4384" name="Belgian" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -69,14 +69,14 @@
 			<key code="19" output="é"/>
 			<key code="20" output="&#x0022;"/>
 			<key code="21" output="&#x0027;"/>
-			<key code="22" output="§"/>
+			<key code="22" output=")"/>
 			<key code="23" output="("/>
 			<key code="24" output="-"/>
 			<key code="25" output="ç"/>
 			<key code="26" output="è"/>
 			<key code="27" output=")"/>
 			<key code="28" output="!"/>
-			<key code="29" output="à"/>
+			<key code="29" output="("/>
 			<key code="30" output="]"/>
 			<key code="31" action="9"/>
 			<key code="32" action="10"/>
@@ -502,8 +502,8 @@
 			<key code="16" output="Ÿ"/>
 			<key code="17" output="™"/>
 			<key code="18" action="4"/>
-			<key code="19" output="„"/>
-			<key code="20" output="”"/>
+			<key code="19" output="²"/>
+			<key code="20" output="³"/>
 			<key code="21" output="’"/>
 			<key code="22" output="å"/>
 			<key code="23" output="["/>
