@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-02-24 at 20:28 (GMT+1)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-27 at 10:31 (GMT+2)-->
 <keyboard group="126" id="-4384" name="Belgian" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -77,10 +77,10 @@
 			<key code="27" output=")"/>
 			<key code="28" output="!"/>
 			<key code="29" output="("/>
-			<key code="30" output="]"/>
+			<key code="30" output="$"/>
 			<key code="31" action="9"/>
 			<key code="32" action="10"/>
-			<key code="33" output="["/>
+			<key code="33" output="^"/>
 			<key code="34" action="8"/>
 			<key code="35" output="p"/>
 			<key code="36" output="&#x000D;"/>
@@ -404,10 +404,10 @@
 			<key code="27" output="}"/>
 			<key code="28" output="¡"/>
 			<key code="29" output="}"/>
-			<key code="30" output="$"/>
+			<key code="30" output="]"/>
 			<key code="31" output="œ"/>
 			<key code="32" output="º"/>
-			<key code="33" output="^"/>
+			<key code="33" action="^ 3"/>
 			<key code="34" output="î"/>
 			<key code="35" output="π"/>
 			<key code="36" output="&#x000D;"/>
@@ -1033,6 +1033,22 @@
 			<when state="4" output="õ"/>
 			<when state="5" output="ó"/>
 		</action>
+		<action id="^">
+			<when state="none" next="Dead Key State 0"/>
+			<when state="Dead Key State 0" output="^"/>
+		</action>
+		<action id="^ 1">
+			<when state="none" next="Dead Key State 0"/>
+			<when state="Dead Key State 0" output="^"/>
+		</action>
+		<action id="^ 2">
+			<when state="none" next="Dead Key State 0"/>
+			<when state="Dead Key State 0" output="^"/>
+		</action>
+		<action id="^ 3">
+			<when state="none" output="["/>
+			<when state="Dead Key State 0" output="^"/>
+		</action>
 	</actions>
 	<terminators>
 		<when state="1" output="^"/>
@@ -1040,5 +1056,6 @@
 		<when state="3" output="¨"/>
 		<when state="4" output="~"/>
 		<when state="5" output="´"/>
+		<when state="Dead Key State 0" output=""/>
 	</terminators>
 </keyboard>
