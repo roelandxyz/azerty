@@ -25,6 +25,52 @@ Installing on Windows
 
 The layout and installer is made with [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx)
 
+Installing on Linux
+===================
+
+/usr/share/X11/xkb/symbols/be
+
+	partial alphanumeric_keys
+	xkb_symbols "r03" {
+
+	    include "be(basic)"
+	    name[Group1]="Belgian (r03)";
+
+	    key <TLDE>	{ [        at, numbersign,      notsign,      notsign ] };
+	    key <AE02>	{ [    eacute,          2,           at,  twosuperior ] };
+	    key <AE03>	{ [  quotedbl,          3,   numbersign,threesuperior ]	};
+	    key <AE05>	{ [ parenleft,          5,    braceleft, threeeighths ]	};
+	    key <AE06>	{ [parenright,          6,  asciicircum,  fiveeighths ]	};
+	    key <AE10>	{ [ parenleft,          0,   braceright,       degree ]	};
+	    key <AE11>	{ [parenright,     degree,   braceright, bracketright ]	};
+
+	    key <AD11>	{ [circumflex, dead_diaeresis,  bracketleft, dead_abovering ] };
+	    key <AD12>	{ [    dollar,   asterisk, bracketright,  dead_macron ]	};
+
+	    key <AC11>	{ [    braceleft,    percent,   dead_acute,   dead_caron ]	};
+	    key <BKSL>	{ [   braceright,   sterling,   dead_grave,   dead_breve ]	};
+
+	 	key <AB06>  { [         n,          N,         tilde,            N ] };
+	    key <AB07>	{ [     comma,   question, dead_cedilla,    masculine ]	};
+	    key <AB08>	{ [ semicolon,     period, horizconnector,   multiply ]	};
+	    key <AB09>	{ [     colon,      slash, periodcentered,  backslash ] };
+	    key <AB10>	{ [     equal,       plus,   dead_tilde, dead_abovedot]	};
+	    
+	    key <LSGT>  { [      less,    greater,    backslash,    backslash ]	};
+
+	};
+
+
+/usr/share/X11/xkb/rules/evdev.xml
+
+	<variant>
+	  <configItem>
+	    <name>r03</name>
+	    <description>Belgian (r03)</description>
+	  </configItem>
+	</variant>  
+
+
 Screenshot
 ==========
  
