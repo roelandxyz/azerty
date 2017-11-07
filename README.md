@@ -2,6 +2,13 @@ The Apple azerty and Windows azerty (Belgium period) layouts are a bit different
 This layout is a combination to make them both work.  
 It is also more developer friendly.  
 
+Screenshot
+==========
+ 
+![Layout](/keyboard-layout.png)
+
+[Keyboard-layout-editor](http://www.keyboard-layout-editor.com/#/gists/63b058a04445e88629c4292a479f954a)
+
 
 Installing on macOS
 ===================
@@ -28,7 +35,7 @@ The layout and installer is made with [Microsoft Keyboard Layout Creator](https:
 Installing on Linux
 ===================
 
-/usr/share/X11/xkb/symbols/be
+Add this to the end of file `/usr/share/X11/xkb/symbols/be`:
 
 	partial alphanumeric_keys
 	xkb_symbols "r03" {
@@ -61,7 +68,7 @@ Installing on Linux
 	};
 
 
-/usr/share/X11/xkb/rules/evdev.xml
+Add the variant to the belgian layout in `/usr/share/X11/xkb/rules/evdev.xml`:
 
 	<variant>
 	  <configItem>
@@ -69,11 +76,3 @@ Installing on Linux
 	    <description>Belgian (r03)</description>
 	  </configItem>
 	</variant>  
-
-
-Screenshot
-==========
- 
-![Layout](/keyboard-layout.png)
-
-[Keyboard-layout-editor](http://www.keyboard-layout-editor.com/#/gists/63b058a04445e88629c4292a479f954a)
