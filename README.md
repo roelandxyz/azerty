@@ -79,3 +79,5 @@ Add the new variant to the belgian layout in `/usr/share/X11/xkb/rules/evdev.xml
 
 After a reboot you can select the new layout. 
 Tested with Gnome on Ubuntu 17.10.
+
+Here is some more information: https://askubuntu.com/questions/973659/custom-keyboard-variant-not-selectable
