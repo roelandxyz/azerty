@@ -51,7 +51,7 @@ Add this to the end of file `/usr/share/X11/xkb/symbols/be`:
 	    key <AE10>  { [ parenleft,             0,    braceright,        degree ] };
 	    key <AE11>  { [parenright,        degree,    braceright,  bracketright ] };
 
-	    key <AD11>  { [circumflex,dead_diaeresis,   bracketleft,dead_abovering ] };
+	    key <AD11>  { [asciicircum,dead_diaeresis,   bracketleft,dead_abovering ] };
 	    key <AD12>  { [    dollar,      asterisk,  bracketright,   dead_macron ] };
 
 	    key <AC11>  { [ braceleft,       percent,    dead_acute,    dead_caron ] };
