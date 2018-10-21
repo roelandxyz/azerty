@@ -71,7 +71,7 @@ Add the new variant to the belgian layout in `/usr/share/X11/xkb/rules/evdev.xml
     </variant>
 
 After a reboot you can select the new layout.
-Tested with Gnome 3.26 on Ubuntu 17.10 and Xfce 4.12 on Arch (Manjaro).
+Tested with Gnome 3.26 on Ubuntu 17.10 / Xfce 4.12 on Arch (Manjaro) / Kubuntu 18.10
 
 Here is some more information: https://askubuntu.com/questions/973659/custom-keyboard-variant-not-selectable
 
