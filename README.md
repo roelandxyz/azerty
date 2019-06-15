@@ -1,6 +1,9 @@
-The Apple azerty and Windows azerty (Belgium period) layouts are a bit different.  
-This layout is a combination to make them both work.  
-It is also more developer friendly.
+A better azerty for Developers.
+
+# Most important changes
+
+- The top left key is for @ and # (like Apple does, but now also for Windows/Linux)
+- { and } are placed next to enter and are now easy to use. (see screenshot)
 
 # Screenshot
 
