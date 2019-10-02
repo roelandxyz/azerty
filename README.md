@@ -86,6 +86,5 @@ Here is the config if you need it:
     key  <END> {	[  Next		]	};
     key <PGDN> {	[  End		]	};
     
- Update: I now use Alt+PgUp for Home and Alt+PgDn for End. This is easy to do with [AutoKey](https://github.com/autokey/autokey)
- Here is an example:
- https://askubuntu.com/questions/702213/custom-key-for-home-end-on-ubuntu-gnome-15-10/1178075#1178075
+ Update: I now use Alt+PgUp for Home and Alt+PgDn for End. This is easy to do with [AutoKey](https://github.com/autokey/autokey).  
+ Here is an [example](https://askubuntu.com/questions/702213/custom-key-for-home-end-on-ubuntu-gnome-15-10/1178075#1178075)
