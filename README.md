@@ -11,15 +11,31 @@ A better azerty for Developers.
 
 # Installing on macOS
 
--   sudo cp -r AzertyR03.bundle /Library/Keyboard\ Layouts/
--   reboot
--   select new layout from keyboard settings -> input sources
+1. Copy the `.keylayout` file to the `Keyboard Layouts` folder within `/Library`. In command form:
 
-Here some extra information:  
-http://apple.stackexchange.com/questions/43845/how-do-i-type-a-%C2%B2-or-a-%C2%B3-on-an-apple-keyboard-international-english-layout/45402#45402
+	```bash
+	# Install the keyboard layout system-wide
+	cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.githubusercontent.com/r03/azerty/master/mac/r03.keylayout
+	```
 
-If you need to re-identify your keyboard for some reason:  
-sudo rm /Library/Preferences/com.apple.keyboardtype.plist
+2. Reboot, or log out and log in again.
+
+3. Enable the new keyboard layout via _System Preferences_ › _Keyboard_ › _Input Sources_ › _AZERTY_.
+
+## How to make the custom keyboard layout the system default
+
+To use the custom layout for the login screen, you need to [set it as the system default](http://apple.stackexchange.com/a/108836/4408).
+
+1. Run the following command:
+
+	```bash
+	sudo curl -#o /Library/Preferences/com.apple.HIToolbox.plist https://raw.githubusercontent.com/r03/azerty/master/mac/tmp.plist
+	```
+
+2. Reboot.
+
+
+(original: https://raw.githubusercontent.com/mathiasbynens/custom.keylayout/master/azerty/README.md)
 
 The layout is made with [Ukele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
 
