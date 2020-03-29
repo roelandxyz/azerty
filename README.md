@@ -22,7 +22,7 @@ A better azerty for Developers.
 
 3. Enable the new keyboard layout via _System Preferences_ › _Keyboard_ › _Input Sources_ › _AZERTY_.
 
-## How to make the custom keyboard layout the system default
+### How to make the custom keyboard layout the system default
 
 To use the custom layout for the login screen, you need to [set it as the system default](http://apple.stackexchange.com/a/108836/4408).
 
@@ -35,7 +35,7 @@ To use the custom layout for the login screen, you need to [set it as the system
 2. Reboot.
 
 
-(original: https://raw.githubusercontent.com/mathiasbynens/custom.keylayout/master/azerty/README.md)
+[original installation instructions](https://raw.githubusercontent.com/mathiasbynens/custom.keylayout/master/azerty/README.md)
 
 The layout is made with [Ukele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
 
