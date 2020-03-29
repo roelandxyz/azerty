@@ -20,7 +20,7 @@ A better azerty for Developers.
 
 2. Reboot, or log out and log in again.
 
-3. Enable the new keyboard layout via _System Preferences_ › _Keyboard_ › _Input Sources_ › _AZERTY_.
+3. Enable the new keyboard layout via _System Preferences_ › _Keyboard_ › _Input Sources_ › _AzertyR03_.
 
 ### How to make the custom keyboard layout the system default
 
