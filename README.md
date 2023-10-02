@@ -1,3 +1,11 @@
+**Attention:** This project is **archived** because:
+- It works and doesn't need any more features
+- I switched to qwerty
+
+Feel free to fork this and make it your own.
+
+---
+
 A better azerty for Developers.
 
 # Most important changes
