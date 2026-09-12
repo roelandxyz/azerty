@@ -15,7 +15,7 @@ A better azerty for Developers.
 
 	```bash
 	# Install the keyboard layout system-wide
-	cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.githubusercontent.com/r03/azerty/master/mac/r03.keylayout
+	cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.githubusercontent.com/roelandxyz/azerty/master/mac/r03.keylayout
 	```
 
    (use r03_bracket.keylayout if you want '^' and '$' switched with '[' and ']')
@@ -31,7 +31,7 @@ To use the custom layout for the login screen, you need to [set it as the system
 1. Run the following command:
 
 	```bash
-	sudo curl -#o /Library/Preferences/com.apple.HIToolbox.plist https://raw.githubusercontent.com/r03/azerty/master/mac/tmp.plist
+	sudo curl -#o /Library/Preferences/com.apple.HIToolbox.plist https://raw.githubusercontent.com/roelandxyz/azerty/master/mac/tmp.plist
 	```
 
 2. Reboot.
